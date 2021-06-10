@@ -1,0 +1,87 @@
+
+  
+  
+   body{ margin: 0px;
+         text-align: center;
+        background-image: url(india.jpg);
+       background-position:center;
+       background-attachment: fixed;
+       background-repeat: no-repeat;
+       background-size: cover;
+    }    
+       
+    .card{
+        border: 3px solid white;
+        width: 450px;
+        height: 450px;
+        color: whitesmoke;
+        background: rgba(32, 129, 194, 0.5);
+        box-shadow: 0 4px 8px 0  rgba(0,0,0,0.8)  
+    }
+    button:hover {
+         
+         background-color: salmon;
+         
+    }
+    a{
+        text-decoration: none;
+
+    }
+    button{
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0  rgba(0,0,0,0.5)  ;
+        
+    }
+    .img{
+        margin-top: 10px; 
+        width: 200px;
+        height: 200px;
+        border: 1px solid white;
+        box-shadow: 0 4px 8px 0  rgba(0,0,0,0.5)  ;
+        
+        }
+
+        .parent{
+            padding-top: 20px;
+            display: flex;
+            gap:10px;
+            flex-wrap: wrap;
+            align-items: center;
+                justify-content:center;
+            
+        }
+
+        @media(min-width:768px){
+            .parent {
+                
+                
+                display:flex;
+                gap: 10px;
+                align-items: center;
+                justify-content:center;
+                   }
+                
+            
+            
+            
+        }
+    
+        
+    
+    @media (min-width:1020px){
+      .parent { 
+          
+          gap:10px;
+          flex-wrap:wrap;
+          display: flex; 
+          justify-content: center;
+         }
+    }
+    
+    
+
+
+
+
+
+
